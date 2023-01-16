@@ -1,9 +1,9 @@
 import Vue from 'vue'
-Vue.prototype.$url = 'http://localhost:8000/';
-Vue.prototype.$storage ='http://localhost:8000/';
-Vue.prototype.$domain ='http://localhost:8000';
+Vue.prototype.$url = 'https://api2.dancocoin.io/';
+Vue.prototype.$storage ='https://api2.dancocoin.io/';
+Vue.prototype.$domain ='https://api2.dancocoin.io';
 
-Vue.prototype.$domainsale = 'http://localhost:8000';
+Vue.prototype.$domainsale = 'https://api2.dancocoin.io';
 Vue.prototype.$lang ='fa';
 
 
@@ -21,7 +21,7 @@ Vue.prototype.changeUrl = arg => {
   return url;
 };
 export default ({app}) => {
-app.$url = 'http://localhost:8000';
+app.$url = 'https://api2.dancocoin.io';
 
 }
 import moment from 'vue-jalali-moment';
